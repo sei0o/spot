@@ -154,6 +154,7 @@ impl SearchResults {
                 self.album_results_model.append(&AlbumModel::new(
                     &album.artists_name(),
                     &album.title,
+                    album.year(),
                     &album.art,
                     &album.id,
                 ));
